@@ -8,12 +8,9 @@ The repository does not disclose partner-provided FAWT structural mass inputs. D
 
 ## Repository Role
 
-The active repository is maintained on GitHub at https://github.com/TakumiMM11/wind-support-lca-rank-fragility. The submission-version release will be archived through Zenodo and cited in the manuscript once the Zenodo DOI is issued.
+The active repository is maintained on GitHub at https://github.com/TakumiMM11/wind-support-lca-rank-fragility. The submission-version release is archived on Zenodo at https://doi.org/10.5281/zenodo.21263858.
 
-Placeholders to replace before submission:
-
-- Zenodo DOI: `[Zenodo DOI]`
-- Release: `v1.0-submission`
+Release: `v1.0-submission`
 
 ## Contents
 
@@ -35,4 +32,4 @@ FAWT is treated as a private scenario case, not as a public reference-design ben
 
 ## Citation
 
-After Zenodo archives `v1.0-submission`, cite the archived release DOI listed in `CITATION.cff`.
+Cite the archived release DOI listed in `CITATION.cff`.

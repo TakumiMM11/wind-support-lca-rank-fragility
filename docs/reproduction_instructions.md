@@ -10,7 +10,8 @@ Recommended release workflow:
 4. Run the analysis scripts needed for the final tables and figures, or verify that the included outputs match the manuscript.
 5. Create the GitHub release `v1.0-submission`.
 6. Archive the release through Zenodo.
-7. Replace `[Zenodo DOI]` in the repository documentation and add the issued DOI to `CITATION.cff`.
-8. Insert the GitHub URL and Zenodo DOI into the manuscript Data availability section.
+7. Insert the GitHub URL and Zenodo DOI into the manuscript Data availability section.
+
+For this submission package, the release DOI is https://doi.org/10.5281/zenodo.21263858.
 
 The FAWT absolute structural mass inputs are intentionally not reproduced in this repository. Derived FAWT scenario outputs are included for interpretation.
