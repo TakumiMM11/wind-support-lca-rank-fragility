@@ -1,0 +1,6 @@
+structure,current_case_credit_rate,monte_carlo_min,monte_carlo_max,note
+onshore,0.30,0.00,0.50,Shared EoL credit-realization screen
+bottom_fixed,0.25,0.00,0.50,Shared EoL credit-realization screen
+fawt,0.22,0.00,0.50,Shared EoL credit-realization screen
+semisubmersible,0.20,0.00,0.50,Shared EoL credit-realization screen
+spar,0.20,0.00,0.50,Shared EoL credit-realization screen

@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "Climate-Focused LCA of Wind Turbine Support Structures: Source-Explicit Inventories and Rank Fragility"
+message: "If you use this repository, please cite the archived Zenodo release."
+type: software
+authors:
+  - family-names: Morishima
+    given-names: Takumi
+  - family-names: Wan
+    given-names: Yi
+  - family-names: Takahashi
+    given-names: Jun
+  - family-names: Akimoto
+    given-names: Hiromichi
+repository-code: "https://github.com/TakumiMM11/wind-support-lca-rank-fragility"
+version: "v1.0-submission"
