@@ -24,7 +24,7 @@ Release: `v1.0-submission`
 
 ## Reproduction
 
-The repository is intended to preserve the non-proprietary submission-version evidence package. Some paths in the copied scripts may need adjustment after the GitHub repository is finalized. See `docs/reproduction_instructions.md`.
+The scripts are organized to run from the repository root where the required input tables are included. Reproduction instructions are provided in `docs/reproduction_instructions.md`.
 
 ## Proprietary Boundary
 

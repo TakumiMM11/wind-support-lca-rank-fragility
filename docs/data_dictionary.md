@@ -35,4 +35,4 @@ This file summarizes the main non-proprietary files included in the submission-v
 
 ## scripts/ and src/
 
-The copied scripts and source modules document the analysis workflow used in the working repository. Path adjustments may be required after final GitHub repository placement.
+The scripts and source modules document the analysis workflow used for the manuscript evidence package. Run scripts from the repository root unless the script header specifies otherwise.

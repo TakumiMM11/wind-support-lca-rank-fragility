@@ -13,10 +13,10 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "results" / "manuscript_v4_revision_20260319"
 STRENGTH = ROOT / "results" / "ijlca_strengthening_20260702"
-OUT = ROOT / "submission" / "20260702_ijlca_v1"
+OUT = ROOT / "submission" / "20260707_ijlca_v2"
 
 STRUCTURE_ORDER = ["onshore", "bottom_fixed", "fawt", "semisubmersible", "spar"]
-STRUCTURE_LABELS = ["Onshore", "Bottom-fixed", "FAWT*", "Semisub.", "Spar"]
+STRUCTURE_LABELS = ["Onshore", "Bottom-fixed", "FAWT$^\\dagger$", "Semisub.", "Spar"]
 MATERIAL_ORDER = ["gfrp", "cfrp", "rcfrp", "rrcfrp"]
 MATERIAL_LABELS = ["GFRP", "CFRP", "rCFRP", "rrCFRP"]
 POWER_ORDER = [2.0, 5.0, 10.0, 15.0]
