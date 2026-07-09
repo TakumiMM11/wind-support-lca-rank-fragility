@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 title: "Climate-Focused LCA of Wind Turbine Support Structures: Source-Explicit Inventories and Rank Fragility"
 message: "If you use this repository, please cite the archived Zenodo release."
-type: software
+type: dataset
 authors:
   - family-names: Morishima
     given-names: Takumi
