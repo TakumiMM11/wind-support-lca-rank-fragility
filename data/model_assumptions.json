@@ -1,13 +1,13 @@
 {
-  "version": "2026-02-21-baseline-frozen",
-  "notes": "Parameter register for site-class CF, L3 O&M proxy, and L4 material-specific recovery proxy. Baseline CF values frozen 2026-02-21 (Git tag: v1.0-baseline-frozen). Do NOT modify baseline section without creating a new tag.",
+  "version": "2026-03-19-v4-revision-cf",
+  "notes": "Revision-specific parameter register for manuscript_draft_v4. Baseline CF values were revised on 2026-03-19 for reviewer-facing harmonization: onshore 0.30, bottom_fixed 0.40, and floating representatives (fawt, semisubmersible, spar) 0.42. Use this file for v4 revision outputs; preserve data/model_assumptions.json for the earlier baseline-frozen record.",
   "site_class_cf": {
     "baseline": {
       "onshore": {"min": 0.25, "base": 0.30, "max": 0.38, "source": "NREL harmonization; low-to-moderate wind sites (IEC class II-III)"},
-      "bottom_fixed": {"min": 0.35, "base": 0.40, "max": 0.45, "source": "Adjusted baseline fixed-bottom CF range; bottom_fixed=0.45 retained as sensitivity upper bound only"},
-      "semisubmersible": {"min": 0.38, "base": 0.42, "max": 0.50, "source": "Floating offshore semisubmersible typical range; Equinor Hywind data and WindEurope offshore statistics"},
-      "spar": {"min": 0.32, "base": 0.38, "max": 0.45, "source": "Spar-buoy floating offshore typical range; deep-water high-resource sites"},
-      "fawt": {"min": 0.35, "base": 0.40, "max": 0.50, "source": "FAWT proxy range; estimated from floating offshore and NREL FOWT studies"}
+      "bottom_fixed": {"min": 0.35, "base": 0.40, "max": 0.45, "source": "NREL ATB-style fixed-bottom offshore representative value; <60 m water depth and moderate-to-high offshore resource"},
+      "semisubmersible": {"min": 0.35, "base": 0.42, "max": 0.50, "source": "Floating offshore representative value; NREL ATB-style deeper-water, slightly higher-wind resource class"},
+      "spar": {"min": 0.35, "base": 0.42, "max": 0.50, "source": "Floating offshore representative value; subtype-specific CF differences are not generalized in the baseline revision"},
+      "fawt": {"min": 0.35, "base": 0.42, "max": 0.50, "source": "Floating offshore proxy for FAWT; representative floating value used instead of claiming FAWT-specific operational advantage"}
     },
     "high_resource": {
       "onshore": {"min": 0.35, "base": 0.40, "max": 0.45, "source": "High-wind onshore sites"},
@@ -228,13 +228,13 @@
     }
   },
   "uncertainty": {
-    "notes": "Triangular distribution parameters for MC sampling (C-1). Min/mode/max mirror site_class_cf.baseline. EoL credit rate uses uniform distribution.",
+    "notes": "Triangular distribution parameters for MC sampling (C-1). Min/mode/max mirror the v4 revision CF baseline. EoL credit rate uses uniform distribution.",
     "site_class_cf_triangle": {
-      "onshore":          {"min": 0.25, "mode": 0.30, "max": 0.38},
-      "bottom_fixed":     {"min": 0.35, "mode": 0.40, "max": 0.45},
-      "semisubmersible":  {"min": 0.38, "mode": 0.42, "max": 0.50},
-      "spar":             {"min": 0.32, "mode": 0.38, "max": 0.45},
-      "fawt":             {"min": 0.35, "mode": 0.40, "max": 0.50}
+      "onshore": {"min": 0.25, "mode": 0.30, "max": 0.38},
+      "bottom_fixed": {"min": 0.35, "mode": 0.40, "max": 0.45},
+      "semisubmersible": {"min": 0.35, "mode": 0.42, "max": 0.50},
+      "spar": {"min": 0.35, "mode": 0.42, "max": 0.50},
+      "fawt": {"min": 0.35, "mode": 0.42, "max": 0.50}
     },
     "eol_credit_rate_uniform": {
       "min": 0.0,

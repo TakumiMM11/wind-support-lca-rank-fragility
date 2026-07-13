@@ -1,11 +1,11 @@
-rated_power_mw,material_model,structure_a,structure_b,mean_intensity_a,mean_intensity_b,p_a_lower_gwp,p_b_lower_gwp,p_tie,p_a_gt_b,p_b_gt_a,base_rank_a_lower,rank_reversal_prob,n_samples,tie_threshold_pct
-15.0,gfrp,bottom_fixed,fawt,11.9735,14.5515,0.9674,0.0202,0.0124,0.0202,0.9674,True,0.9674,10000,1.0
-15.0,gfrp,bottom_fixed,onshore,11.9735,11.7052,0.5518,0.3737,0.0745,0.5518,0.3737,False,0.5518,10000,1.0
-15.0,gfrp,bottom_fixed,semisubmersible,11.9735,16.8186,1.0,0.0,0.0,0.0,1.0,True,1.0,10000,1.0
-15.0,gfrp,bottom_fixed,spar,11.9735,17.9998,1.0,0.0,0.0,0.0,1.0,True,1.0,10000,1.0
-15.0,gfrp,fawt,onshore,14.5515,11.7052,0.9589,0.0262,0.0149,0.9589,0.0262,False,0.9589,10000,1.0
-15.0,gfrp,fawt,semisubmersible,14.5515,16.8186,0.9211,0.0505,0.0284,0.0505,0.9211,True,0.9211,10000,1.0
-15.0,gfrp,fawt,spar,14.5515,17.9998,0.9736,0.0163,0.0101,0.0163,0.9736,True,0.9736,10000,1.0
-15.0,gfrp,onshore,semisubmersible,11.7052,16.8186,1.0,0.0,0.0,0.0,1.0,True,1.0,10000,1.0
-15.0,gfrp,onshore,spar,11.7052,17.9998,1.0,0.0,0.0,0.0,1.0,True,1.0,10000,1.0
-15.0,gfrp,semisubmersible,spar,16.8186,17.9998,0.7269,0.2055,0.0676,0.2055,0.7269,True,0.7269,10000,1.0
+rated_power_mw,material_model,pair_label,pair_member_a,pair_member_b,mean_intensity_a_gco2_per_kwh,mean_intensity_b_gco2_per_kwh,point_estimate_a_lower_gwp,support_frequency,reversal_frequency,tie_frequency,n_samples,tie_threshold_pct
+15.0,gfrp,FAWT$^\dagger$ vs Spar,fawt,spar,13.095152389235006,12.937049139318022,False,0.4949,0.4326,0.0725,10000,1.0
+15.0,gfrp,Bottom-fixed vs Onshore,bottom_fixed,onshore,9.24375659615797,9.849469100430884,True,0.6826,0.2516,0.0658,10000,1.0
+15.0,gfrp,FAWT$^\dagger$ vs Semisub.,fawt,semisubmersible,13.095152389235006,14.228171235138143,True,0.7514,0.1907,0.0579,10000,1.0
+15.0,gfrp,Semisub. vs Spar,semisubmersible,spar,14.228171235138143,12.937049139318022,False,0.7862,0.1668,0.0470,10000,1.0
+15.0,gfrp,FAWT$^\dagger$ vs Onshore,fawt,onshore,13.095152389235006,9.849469100430884,False,0.9941,0.0028,0.0031,10000,1.0
+15.0,gfrp,Onshore vs Spar,onshore,spar,9.849469100430884,12.937049139318022,True,0.9940,0.0025,0.0035,10000,1.0
+15.0,gfrp,Bottom-fixed vs FAWT$^\dagger$,bottom_fixed,fawt,9.24375659615797,13.095152389235006,True,1.0000,0.0000,0.0000,10000,1.0
+15.0,gfrp,Bottom-fixed vs Semisub.,bottom_fixed,semisubmersible,9.24375659615797,14.228171235138143,True,1.0000,0.0000,0.0000,10000,1.0
+15.0,gfrp,Bottom-fixed vs Spar,bottom_fixed,spar,9.24375659615797,12.937049139318022,True,1.0000,0.0000,0.0000,10000,1.0
+15.0,gfrp,Onshore vs Semisub.,onshore,semisubmersible,9.849469100430884,14.228171235138143,True,1.0000,0.0000,0.0000,10000,1.0

@@ -12,11 +12,11 @@ The active repository is maintained on GitHub at:
 
 https://github.com/TakumiMM11/wind-support-lca-rank-fragility
 
-The submission-version release is archived on Zenodo at:
+The Zenodo version record for the latest submission release is available through:
 
-https://doi.org/10.5281/zenodo.21331466
+https://doi.org/10.5281/zenodo.21263857
 
-Release: `v1.0.2-submission`
+Release: `v1.0.3-submission`
 
 ## Contents
 
@@ -37,6 +37,14 @@ Key verification outputs are:
 - PRCC results: `results/prcc_summary.csv`
 - Monte Carlo convergence diagnostics: `results/mc_convergence_summary.csv`
 - Monte Carlo convergence figure: `figures/exported_figures/mc_convergence.png`
+
+Before citing or reusing the release, run:
+
+```bash
+python3 scripts/check_submission_consistency.py
+```
+
+The check verifies that the archived 80-case matrix, the 15 MW GFRP headline values, and the bottom-fixed/onshore rank-fragility frequencies match the manuscript.
 
 ## Proprietary Boundary
 
