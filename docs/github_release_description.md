@@ -1,6 +1,6 @@
 # GitHub Release Description
 
-Release name: `v1.0.3-submission`
+Release name: `v1.0.4-submission`
 
 Submission-version archive for the manuscript "Climate-Focused LCA of Wind Turbine Support Structures: Source-Explicit Inventories and Rank Fragility."
 

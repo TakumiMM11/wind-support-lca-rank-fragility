@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 MATRIX = ROOT / "results" / "80_case_result_matrix.csv"
 PAIRWISE = ROOT / "results" / "rank_fragility_pairwise.csv"
+CONVERGENCE = ROOT / "results" / "mc_convergence_summary.csv"
 
 EXPECTED_15MW_GFRP = {
     "onshore": {"intensity": 9.869547548286658, "cf": 0.30},
@@ -88,11 +89,32 @@ def check_pairwise() -> None:
         assert_close(float(target[key]), expected, f"bottom_fixed vs onshore {key}", tol=5e-4)
 
 
+def check_convergence() -> None:
+    rows = read_csv(CONVERGENCE)
+    if not rows:
+        raise AssertionError("mc_convergence_summary.csv is empty")
+    required = {"n_samples", "mean_onshore", "mean_bottom_fixed", "support_frequency_bottom_fixed_vs_onshore"}
+    if not required.issubset(rows[0]):
+        raise AssertionError(
+            "mc_convergence_summary.csv must expose support_frequency_bottom_fixed_vs_onshore"
+        )
+    final = rows[-1]
+    if final["n_samples"] != "10000":
+        raise AssertionError(f"Final convergence row should be n=10000, got {final['n_samples']}")
+    assert_close(
+        float(final["support_frequency_bottom_fixed_vs_onshore"]),
+        EXPECTED_BOTTOM_FIXED_ONSHORE["support_frequency"],
+        "convergence final support frequency",
+        tol=5e-4,
+    )
+
+
 def main() -> None:
     check_matrix()
     check_pairwise()
+    check_convergence()
     print("Submission consistency check passed.")
-    print("15 MW GFRP matrix values and bottom-fixed/onshore rank frequencies match the manuscript.")
+    print("15 MW GFRP matrix values, rank frequencies, and convergence labels match the manuscript.")
 
 
 if __name__ == "__main__":

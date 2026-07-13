@@ -17,7 +17,7 @@ This file summarizes the main non-proprietary files included in the submission-v
 - `monte_carlo_summary.csv`: Monte Carlo summary output.
 - `rank_fragility_pairwise.csv`: pairwise rank-fragility output.
 - `prcc_summary.csv`: PRCC diagnostic summary for the sampled capacity-factor and end-of-life variables.
-- `mc_convergence_summary.csv`: Monte Carlo convergence diagnostic table for the 15 MW GFRP onshore/bottom-fixed comparison.
+- `mc_convergence_summary.csv`: Monte Carlo convergence diagnostic table for the 15 MW GFRP bottom-fixed/onshore comparison. The convergence ordering column is `support_frequency_bottom_fixed_vs_onshore`, matching the support definition in `rank_fragility_pairwise.csv`.
 - `bop_cf_break_even.csv`: offshore electrical BOP and capacity-factor break-even sensitivity.
 - `cfrp_break_even_aep.csv`: AEP gain required for CFRP to break even against GFRP at 15 MW.
 - `o_and_m_sensitivity.csv`: O&M multiplier sensitivity for 15 MW GFRP cases.

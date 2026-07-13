@@ -1,4 +1,4 @@
-n_samples,mean_onshore,mean_bottom_fixed,rank_reversal_prob_onshore_bottom_fixed
+n_samples,mean_onshore,mean_bottom_fixed,support_frequency_bottom_fixed_vs_onshore
 100,9.947127780636842,9.292151906377931,0.73
 200,9.90157353708701,9.315808159527391,0.695
 300,9.9015449595247,9.286731836543531,0.6833333333333333

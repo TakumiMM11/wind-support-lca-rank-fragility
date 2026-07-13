@@ -1,2 +1,2 @@
 Submission consistency check passed.
-15 MW GFRP matrix values and bottom-fixed/onshore rank frequencies match the manuscript.
+15 MW GFRP matrix values, rank frequencies, and convergence labels match the manuscript.

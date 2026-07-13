@@ -11,13 +11,19 @@ Recommended release workflow:
 5. Archive the release through Zenodo.
 6. Insert the GitHub URL and Zenodo DOI into the manuscript Data availability section.
 
-For this submission package, the archived `v1.0.3-submission` GitHub release DOI is https://doi.org/10.5281/zenodo.21333428.
+For this submission package, the archived `v1.0.4-submission` GitHub release is connected to the Zenodo concept DOI https://doi.org/10.5281/zenodo.21263857. Use the version-specific DOI shown on the Zenodo record for citation.
 
 Verification outputs referenced in the manuscript are included at:
 
 - `results/prcc_summary.csv`
-- `results/mc_convergence_summary.csv`
+- `results/mc_convergence_summary.csv`, where `support_frequency_bottom_fixed_vs_onshore` is the conditional sampling frequency supporting the bottom-fixed/onshore point-estimate ordering.
 - `figures/exported_figures/mc_convergence.png`
+
+The Monte Carlo convergence figure can be regenerated with:
+
+```bash
+python3 scripts/plot_mc_convergence.py
+```
 
 Run the consistency check before using the archived outputs:
 
