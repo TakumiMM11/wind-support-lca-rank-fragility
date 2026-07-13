@@ -12,16 +12,14 @@ The active repository is maintained on GitHub at:
 
 https://github.com/TakumiMM11/wind-support-lca-rank-fragility
 
-The submission-version release is archived on Zenodo at:
+The submission-version release is archived on Zenodo at the DOI listed in `CITATION.cff` and in the manuscript Data availability statement.
 
-https://doi.org/10.5281/zenodo.21272369
-
-Release: `v1.0.1-submission`
+Release: `v1.0.2-submission`
 
 ## Contents
 
 - `data/`: shareable material coefficients and modeling assumptions.
-- `results/`: 80-case matrix, Monte Carlo outputs, rank-fragility tables, and deterministic stress-test tables.
+- `results/`: 80-case matrix, Monte Carlo outputs, rank-fragility tables, PRCC diagnostics, Monte Carlo convergence diagnostics, and deterministic stress-test tables.
 - `figures/figure_source_data/`: source data used for manuscript figures and tables.
 - `figures/exported_figures/`: exported figure files.
 - `scripts/`: analysis and figure-generation scripts used in the project workflow.
@@ -31,6 +29,12 @@ Release: `v1.0.1-submission`
 ## Reproduction
 
 The scripts are organized to run from the repository root where the required input tables are included. Reproduction instructions are provided in `docs/reproduction_instructions.md`.
+
+Key verification outputs are:
+
+- PRCC results: `results/prcc_summary.csv`
+- Monte Carlo convergence diagnostics: `results/mc_convergence_summary.csv`
+- Monte Carlo convergence figure: `figures/exported_figures/mc_convergence.png`
 
 ## Proprietary Boundary
 

@@ -16,6 +16,8 @@ This file summarizes the main non-proprietary files included in the submission-v
 - `80_case_result_matrix.csv`: full 5 structure x 4 rating x 4 blade-material result matrix.
 - `monte_carlo_summary.csv`: Monte Carlo summary output.
 - `rank_fragility_pairwise.csv`: pairwise rank-fragility output.
+- `prcc_summary.csv`: PRCC diagnostic summary for the sampled capacity-factor and end-of-life variables.
+- `mc_convergence_summary.csv`: Monte Carlo convergence diagnostic table for the 15 MW GFRP onshore/bottom-fixed comparison.
 - `bop_cf_break_even.csv`: offshore electrical BOP and capacity-factor break-even sensitivity.
 - `cfrp_break_even_aep.csv`: AEP gain required for CFRP to break even against GFRP at 15 MW.
 - `o_and_m_sensitivity.csv`: O&M multiplier sensitivity for 15 MW GFRP cases.
@@ -30,7 +32,7 @@ This file summarizes the main non-proprietary files included in the submission-v
 
 ## figures/
 
-- `figures/exported_figures/`: exported manuscript and supporting figures.
+- `figures/exported_figures/`: exported manuscript and supporting figures, including `mc_convergence.png`.
 - `figures/figure_source_data/`: CSV source data used to build the manuscript figures and supporting figure checks.
 
 ## scripts/ and src/
