@@ -12,9 +12,9 @@ The active repository is maintained on GitHub at:
 
 https://github.com/TakumiMM11/wind-support-lca-rank-fragility
 
-The Zenodo version record for the latest submission release is available through:
+The submission-version release is archived on Zenodo at:
 
-https://doi.org/10.5281/zenodo.21263857
+https://doi.org/10.5281/zenodo.21333428
 
 Release: `v1.0.3-submission`
 
