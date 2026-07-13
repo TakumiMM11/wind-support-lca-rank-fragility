@@ -11,7 +11,7 @@ Recommended release workflow:
 5. Archive the release through Zenodo.
 6. Insert the GitHub URL and Zenodo DOI into the manuscript Data availability section.
 
-For this submission package, the archived `v1.0.4-submission` GitHub release is connected to the Zenodo concept DOI https://doi.org/10.5281/zenodo.21263857. Use the version-specific DOI shown on the Zenodo record for citation.
+For this submission package, the archived `v1.0.4-submission` GitHub release DOI is https://doi.org/10.5281/zenodo.21334186.
 
 Verification outputs referenced in the manuscript are included at:
 
