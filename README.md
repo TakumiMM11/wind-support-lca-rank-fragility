@@ -1,6 +1,6 @@
 # Climate-Focused Assessment of Wind-Turbine Support Structures: Source-Audited Inventories, Transfer-Validity Gates, and Rank Fragility
 
-- Release: `1.1.0` (`v1.1.0-seta-submission`)
+- Release: `1.1.1` (`v1.1.1-seta-submission`)
 - Release date: 2026-07-18
 - Repository: <https://github.com/TakumiMM11/wind-support-lca-rank-fragility>
 - Zenodo concept DOI (all versions): <https://doi.org/10.5281/zenodo.21263857>
@@ -9,7 +9,7 @@ The version-specific Zenodo DOI will be minted from the GitHub release. No
 unissued version DOI is asserted in this repository snapshot.
 
 This package rebuilds the original manuscript's multi-support and rank-fragility
-story with corrected material identities. It does **not** reproduce the rejected
+story with corrected material identities. It does **not** reproduce the earlier
 80-cell point-estimate matrix.
 
 The primary estimand is a cradle-to-gate material-production climate proxy for
@@ -69,9 +69,9 @@ and rank fields.
 Additional audit-only outputs are:
 
 - `activefloat_rebar_unit_endpoints.csv`: exclusive readings of the reported
-  ActiveFloat rebar value 2550 as either 2550 kg or 2550 t. The latter is the
-  current package interpretation, but the source unit remains unresolved. Both
-  rows are non-headline endpoints and carry `no_central_claim=true`. The same
+  ActiveFloat rebar value 2550 as either 2550 kg or 2550 t. Neither endpoint is
+  preferred or treated as central because the source unit remains unresolved.
+  Both rows are non-headline endpoints and carry `no_central_claim=true`. The same
   rows derive physical-only residual endpoints from the published 34,387.2 t
   platform total: 13,984.65 t for the 2.55 t rebar reading and 11,437.2 t for
   the 2,550 t reading;

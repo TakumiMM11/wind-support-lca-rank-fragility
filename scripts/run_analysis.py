@@ -378,7 +378,7 @@ def make_figures(
     positions = np.arange(2)
     ax.bar(
         positions - width / 2,
-        corr.loc[designs, "rejected_manuscript"],
+        corr.loc[designs, "legacy_mapping"],
         width,
         color="#999999",
         label="Legacy mapping",
@@ -535,14 +535,14 @@ def run(input_dir: Path, analysis_dir: Path, figure_dir: Path) -> None:
     figure_manifest = {
         "project": "wind-support-source-audit-rank-fragility",
         "generator": "scripts/run_analysis.py",
-        "generator_version": "0.5.0",
+        "generator_version": "0.5.1",
         "prompt_version": "figure-alignment-v1",
         "data_version": inputs.parameters["analysis_id"],
         "version": "v2",
-        "date": "2026-07-17",
+        "date": "2026-07-18",
         "author_or_agent": "Codex",
         "seed": inputs.parameters["monte_carlo"]["seed"],
-        "canonical_output_dir": str(figure_dir.resolve()),
+        "canonical_output_dir": "figures/",
         "evidence_tier_key": {
             "A": "conditional reported-material comparison",
             "B": "conditional_product_proxy",

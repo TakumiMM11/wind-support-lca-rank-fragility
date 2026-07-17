@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 title: "Climate-Focused Assessment of Wind-Turbine Support Structures: Source-Audited Inventories, Transfer-Validity Gates, and Rank Fragility"
 message: "If you use this repository, please cite the version-specific DOI minted for this release."
-type: dataset
+type: software
 authors:
   - family-names: Morishima
     given-names: Takumi
@@ -12,5 +12,5 @@ authors:
   - family-names: Akimoto
     given-names: Hiromichi
 repository-code: "https://github.com/TakumiMM11/wind-support-lca-rank-fragility"
-version: "1.1.0"
+version: "1.1.1"
 date-released: "2026-07-18"

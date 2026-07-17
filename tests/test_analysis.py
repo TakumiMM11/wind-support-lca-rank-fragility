@@ -300,6 +300,7 @@ def test_figure_sources_make_activefloat_unranked_and_exclude_it_from_heatmap():
 
 def test_generated_figure_manifest_declares_common_scale_and_source_hashes():
     manifest = json.loads((ROOT / "figures" / "figure_manifest.json").read_text())
+    assert manifest["canonical_output_dir"] == "figures/"
     figure_1 = manifest["figures"]["Figure_1_multisupport_baseline"]
     figure_2 = manifest["figures"]["Figure_2_rank_stability"]
     assert "unranked" in figure_1["caption_short"].lower()

@@ -1,14 +1,14 @@
 {
   "project": "wind-support-source-audit-rank-fragility",
   "generator": "scripts/run_analysis.py",
-  "generator_version": "0.5.0",
+  "generator_version": "0.5.1",
   "prompt_version": "figure-alignment-v1",
   "data_version": "seta-original-story-rebuild-20260717",
   "version": "v2",
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "author_or_agent": "Codex",
   "seed": 20260717,
-  "canonical_output_dir": "/Users/takumi/Library/Mobile Documents/com~apple~CloudDocs/研究室関係/Journal_1/submission/20260707_ijlca_v2/github_release_package/wind-support-lca-rank-fragility/figures",
+  "canonical_output_dir": "figures/",
   "evidence_tier_key": {
     "A": "conditional reported-material comparison",
     "B": "conditional_product_proxy",
@@ -27,13 +27,13 @@
     "interpretation": "the 200 m value belongs to an associated engineering model and is not assigned to the material proxy"
   },
   "execution_sha256": {
-    "src/analysis.py": "9fb79f2758fa17fb638825aea03ec71c32d3eeb7df75b41cab6bdefc4669e37b",
+    "src/analysis.py": "9616c2c729ac76fb1c9e9fc108b293818610245578feda3d0bc4add432b89b65",
     "src/__init__.py": "44da2c2364f6bf54f09780414f4ea025ce9a613a70b0fbb1f5e06d0f963efd15",
-    "scripts/run_analysis.py": "2be21250a884e3c0d6ffad6d7d0d2974d1ffe0e74ee6ab756a3d58432b6478d3"
+    "scripts/run_analysis.py": "e4c2c4e10852a5424a5611b101e2442be4cfb8c94b825ea9c06c09542f7fc600"
   },
   "environment_sha256": {
-    "pyproject.toml": "cf28c22fc5354de77312beb8424acc92a33ab7aa1bf6dbb807a3191df97c9d4a",
-    "uv.lock": "9400dc588cf80bebfb7b4474820dd76c8cc760abb63a8d8a7b675e154d234f73"
+    "pyproject.toml": "25115d4ae80f4a5711a7af9c7c9e5d3e30c02a30c9ad6118bff05a5ab6067e8f",
+    "uv.lock": "7f57be53b3e051e769fb576827f62bc16589801bb51f45701aeb527056cd7b27"
   },
   "figures": {
     "Figure_1_multisupport_baseline": {
@@ -78,18 +78,18 @@
         "inventory_correction_effects.csv"
       ],
       "source_sha256": {
-        "inventory_correction_effects.csv": "6c683891fe5972c4f36d17028396159323ccb8b08eee69f944c2e85b6f68d0ff"
+        "inventory_correction_effects.csv": "207c37643d6e30f60b6758fa63baa8ad0e6028a9f9a37e16fcc7490af366207b"
       },
       "unit": "kt CO2e material-production proxy",
       "filters": "core-substructure mapping audit only"
     }
   },
   "figure_sha256": {
-    "Figure_1_multisupport_baseline.pdf": "e3cc108ff8f6a1621535422976b85277f8a270fc9378595813965461d8f3926e",
+    "Figure_1_multisupport_baseline.pdf": "3eaf902050281f16928c2475dc09dd7d250c372a6bb11bf01dfa8f1f8de8f147",
     "Figure_1_multisupport_baseline.png": "4891de21aacc02ebf8c454c8f6f8c7a11e0ca52a4b223479542bcae05902faea",
-    "Figure_2_rank_stability.pdf": "4477b68f7f3050ee734d1941e93e6142ecb58acaa96dfbf00b1a511df1c8ef03",
+    "Figure_2_rank_stability.pdf": "8201f66becfa4e0bedd58b7dc9c9cf230bb1021bb754c8f2f1018e98fd7d92a2",
     "Figure_2_rank_stability.png": "81dc2b58e797d3dfd26d5ca3fd632b627bec319e0dc4585af9137265e07c1948",
-    "Figure_3_inventory_corrections.pdf": "71775cb6fb24b70cf5743a2d55d09adf1d36248b346886b3b22f7b0050162eb1",
+    "Figure_3_inventory_corrections.pdf": "27a52ebf860cfaf2149f9a4dd40a8079ed81bf770b497a0ecd855e5d57370bba",
     "Figure_3_inventory_corrections.png": "dc9b1204170b7030ba52f803509f5a49f5084f432b052597f1ed9cbc1d382e6c"
   }
 }

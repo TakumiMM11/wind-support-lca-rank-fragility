@@ -438,10 +438,10 @@ def legacy_correction_results(inputs: Inputs) -> pd.DataFrame:
             {
                 "design_id": pivot.index,
                 "correction_delta_gwp_kgco2": (
-                    pivot["source_corrected"] - pivot["rejected_manuscript"]
+                    pivot["source_corrected"] - pivot["legacy_mapping"]
                 ).values,
                 "correction_fraction": (
-                    pivot["source_corrected"] / pivot["rejected_manuscript"] - 1.0
+                    pivot["source_corrected"] / pivot["legacy_mapping"] - 1.0
                 ).values,
             }
         ),

@@ -1,9 +1,9 @@
 design_id,mapping_case,item_id,item_name,material_group,burdened_mass_kg,physical_only_mass_kg,evidence_basis,notes
-volturnus_15mw,rejected_manuscript,vs_legacy_hull_residual,Inferred platform steel residual,steel,1739000,0,rejected manuscript frozen inventory,Residual mapping understated published hull steel
-volturnus_15mw,rejected_manuscript,vs_legacy_concrete_residual,Platform remainder mapped to concrete,concrete,16100000,11300000,rejected manuscript frozen inventory,Included operating seawater as burdened concrete
+volturnus_15mw,legacy_mapping,vs_legacy_hull_residual,Inferred platform steel residual,steel,1739000,0,earlier mapping frozen inventory,Residual mapping understated published hull steel
+volturnus_15mw,legacy_mapping,vs_legacy_concrete_residual,Platform remainder mapped to concrete,concrete,16100000,11300000,earlier mapping frozen inventory,Included operating seawater as burdened concrete
 volturnus_15mw,source_corrected,vs_hull,Published hull steel,steel,3914000,0,NREL/TP-5000-76773 Table 2,Direct material identity
 volturnus_15mw,source_corrected,vs_fixed_ballast,Fixed iron-ore-concrete ballast,concrete,2540000,0,NREL/TP-5000-76773 Table 2,Only fixed ballast is burdened
 volturnus_15mw,source_corrected,vs_seawater,Seawater ballast,not_burdened,0,11300000,NREL/TP-5000-76773 Table 2,Physical register only
-windcrete_15mw,rejected_manuscript,wc_legacy_all_concrete,Whole substructure including ballast mapped to concrete,concrete,36550000,0,rejected manuscript frozen inventory,Solid aggregate identity was lost
+windcrete_15mw,legacy_mapping,wc_legacy_all_concrete,Whole substructure including ballast mapped to concrete,concrete,36550000,0,earlier mapping frozen inventory,Solid aggregate identity was lost
 windcrete_15mw,source_corrected,wc_concrete,Published concrete mass,concrete,11480000,0,COREWIND D1.3 Table 5-5,Direct material identity
 windcrete_15mw,source_corrected,wc_solid_ballast,Solid aggregate ballast,aggregate,25070000,0,COREWIND D1.3 Table 5-5 and Section 5.1,Aggregate receives an aggregate rather than concrete coefficient
