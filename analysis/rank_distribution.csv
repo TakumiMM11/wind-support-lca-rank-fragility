@@ -1,0 +1,13 @@
+estimand,case_id,sample_fraction_exact_rank_1,sample_fraction_exact_rank_2,sample_fraction_exact_rank_3,sample_fraction_exact_rank_4,mean_rank
+core_equal_yield_gco2_per_kwh,monopile_15mw,0.51234,0.48766,0.0,0.0,1.48766
+core_equal_yield_gco2_per_kwh,volturnus_15mw,0.0,0.0,0.0,1.0,4.0
+core_equal_yield_gco2_per_kwh,windcrete_15mw,0.48766,0.51234,0.0,0.0,1.51234
+core_equal_yield_gco2_per_kwh,tlp_15mw,0.0,0.0,1.0,0.0,3.0
+equal_yield_gco2_per_kwh,monopile_15mw,1.0,0.0,0.0,0.0,1.0
+equal_yield_gco2_per_kwh,volturnus_15mw,0.0,0.0,0.0,1.0,4.0
+equal_yield_gco2_per_kwh,windcrete_15mw,0.0,0.7777,0.2223,0.0,2.2223
+equal_yield_gco2_per_kwh,tlp_15mw,0.0,0.2223,0.7777,0.0,2.7777
+deployment_gco2_per_kwh,monopile_15mw,0.99978,0.00022,0.0,0.0,1.00022
+deployment_gco2_per_kwh,volturnus_15mw,0.0,0.0,0.0,1.0,4.0
+deployment_gco2_per_kwh,windcrete_15mw,0.00022,0.75854,0.24124,0.0,2.24102
+deployment_gco2_per_kwh,tlp_15mw,0.0,0.24124,0.75876,0.0,2.75876

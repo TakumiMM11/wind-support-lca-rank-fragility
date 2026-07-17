@@ -1,0 +1,5 @@
+case_id,corner_min_gwp_kgco2,corner_max_gwp_kgco2
+monopile_15mw,2083494.4,4687862.4
+volturnus_15mw,10616341.0,18528526.5
+windcrete_15mw,2911376.365,10667810.0025
+tlp_15mw,4980047.1423892,8678843.992800001

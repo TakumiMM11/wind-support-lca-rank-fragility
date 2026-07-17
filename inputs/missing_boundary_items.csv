@@ -1,0 +1,6 @@
+case_id,missing_item_id,missing_item_class,boundary_layer,reported_mass_kg,material_identity_status,reference_source_id,source_status,notes
+monopile_15mw,mp_scour,scour_protection,seabed_interface,,unknown,NREL75698,no_harmonized_source_explicit_mass,Parity values are steel-equivalent and concrete-equivalent thresholds only; no actual scour mass is asserted
+volturnus_15mw,vs_anchors,mooring_anchors,seabed_interface,,unknown,NREL76773,not_reported_in_selected_inventory,Parity values are material-equivalent thresholds only; no anchor mass is asserted
+windcrete_15mw,wc_anchors,mooring_anchors,seabed_interface,,unknown,COREWIND_D1_3,not_reported_in_selected_inventory,Parity values are material-equivalent thresholds only; no anchor mass is asserted
+activefloat_15mw,af_anchors,mooring_anchors,seabed_interface,,unknown,COREWIND_D1_3,not_reported_in_selected_inventory,Parity values are material-equivalent thresholds only; no anchor mass is asserted
+tlp_15mw,tlp_anchors,tendon_anchors,seabed_interface,,unknown,FRONTIERS_TLP_2026,not_reported_in_selected_inventory,Parity values are material-equivalent thresholds only; no anchor mass is asserted

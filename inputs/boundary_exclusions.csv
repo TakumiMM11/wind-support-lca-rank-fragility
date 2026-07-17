@@ -1,0 +1,13 @@
+exclusion_id,item_or_stage,treatment,reason,consequence_for_claims
+excl_turbine,Rotor-nacelle assembly and blades,excluded_common_system,The same 15 MW turbine is treated as common and the study isolates support-substructure differences,No whole-turbine or blade-material point-estimate claim
+excl_tower,Tower,excluded_from_central,Tower boundaries are not separable on the same basis for every integrated concrete design,Central comparison is for substructures rather than complete turbine-support systems
+excl_anchors,Mooring anchors and monopile scour protection,excluded_missing_common_inventory,No harmonized source-explicit masses are available across designs,Floating station-keeping results are lower bounds with respect to anchors
+excl_electrical,Array and export cables and offshore substations,excluded_site_dependent,Electrical BOP depends on farm layout and distance,No wind-farm carbon-footprint claim
+excl_fabrication,Welding coating assembly and plant energy,excluded_from_central,Process inventories are not harmonized across the five designs,Results are material-production climate proxies
+excl_transport,Transport port installation and towing,excluded_from_central,Designs refer to different water depths and sites and lack a common vessel schedule,No cradle-to-grave LCA claim
+excl_om,Operation and maintenance,excluded_from_central,Existing repository values are unsupported mass-linked proxies,No project-specific operating-burden claim
+excl_eol,End of life and recycling credits,excluded_from_central,Recovery pathways and allocation are not harmonized,No avoided-burden credit is mixed into the attributional proxy
+excl_onshore,Analytically scaled 15 MW onshore case,excluded_from_headline,The available onshore inventory is a 3 MW design and arbitrary scaling is not design-equivalent,Onshore is retained only as an actual-rating contextual case in future extended analysis
+excl_fawt,FAWT private scenario,conditional_extended_only,Raw partner masses exist but ballast identity and design version require company confirmation,No public headline rank until coauthor sign-off
+excl_cfrp_old,Old GFRP to CFRP cascade,retired,The IEA 15 MW reference blade already contains carbon spar caps and the old RNA mapping was non-causal,Material substitution is retained only as a design-equivalence break-even module
+excl_scaling_old,Old 2 to 15 MW power-law matrix,retired,The result was largely imposed by assumed scaling exponents,Rating transfer is retained only as an analytic exponent threshold pending explicit engineering redesign

@@ -1,0 +1,7 @@
+case_a,case_b,sample_fraction_strict_order_preserved,sample_fraction_strict_order_reversed,sample_fraction_with_tie_in_either_layer,sample_fraction_core_tie,sample_fraction_full_tie,headline_comparison
+monopile_15mw,volturnus_15mw,1.0,0.0,0.0,0.0,0.0,True
+monopile_15mw,windcrete_15mw,0.49772,0.47302,0.02926,0.02926,0.0,False
+monopile_15mw,tlp_15mw,1.0,0.0,0.0,0.0,0.0,True
+volturnus_15mw,windcrete_15mw,1.0,0.0,0.0,0.0,0.0,False
+volturnus_15mw,tlp_15mw,1.0,0.0,0.0,0.0,0.0,True
+windcrete_15mw,tlp_15mw,0.75473,0.20073,0.04454,0.0,0.04454,False

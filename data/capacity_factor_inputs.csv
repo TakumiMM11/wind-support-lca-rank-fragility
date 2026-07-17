@@ -1,6 +1,0 @@
-structure,minimum,base,maximum,note
-onshore,0.25,0.30,0.38,Representative yield scenario; not inherent support-structure performance
-bottom_fixed,0.35,0.40,0.45,Representative yield scenario
-fawt,0.35,0.42,0.50,Representative floating yield scenario
-semisubmersible,0.35,0.42,0.50,Representative floating yield scenario
-spar,0.35,0.42,0.50,Representative floating yield scenario

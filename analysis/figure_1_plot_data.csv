@@ -1,0 +1,7 @@
+display_order,case_id,display_label,evidence_profile,plot_role,ranked_for_figure,endpoint_label,core_value_gco2_per_kwh,stationkeeping_addition_gco2_per_kwh,total_value_gco2_per_kwh,sample_p05_gco2_per_kwh,sample_p95_gco2_per_kwh,source_semantics
+0,monopile_15mw,Monopile | [A],A,ranked_conditional_bar,True,,2.3484275581838365,0.0,2.3484275581838365,1.9264779101882925,2.8261476226849873,conditional median and 5--95% sampled range
+1,windcrete_15mw,WindCrete | [C: sensitivity],C_sensitivity,ranked_conditional_bar,True,,2.363236854224219,1.99904379996992,4.362280654194139,3.4023461823131447,5.515419641020454,conditional median and 5--95% sampled range
+2,tlp_15mw,TLP | [B],B,ranked_conditional_bar,True,,4.738782738175823,0.1330055930430767,4.8717883312189,4.227932621887708,5.52484452235412,conditional median and 5--95% sampled range
+3,volturnus_15mw,VolturnUS-S | [A],A,ranked_conditional_bar,True,,7.2486462124432585,3.125168722960691,10.37381493540395,8.964580261964905,11.802723431258553,conditional median and 5--95% sampled range
+4,activefloat_15mw,ActiveFloat | [C: unit unresolved],C_unresolved_unit,unranked_unit_endpoint,False,2.55 t,1.5887604448171961,1.8507947923461625,3.4395552371633586,,,exclusive fixed unit endpoint; no sampled rank
+4,activefloat_15mw,ActiveFloat | [C: unit unresolved],C_unresolved_unit,unranked_unit_endpoint,False,2550 t,6.1493181747584895,1.8507947923461607,8.00011296710465,,,exclusive fixed unit endpoint; no sampled rank

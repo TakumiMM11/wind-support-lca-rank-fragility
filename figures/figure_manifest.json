@@ -1,0 +1,95 @@
+{
+  "project": "wind-support-source-audit-rank-fragility",
+  "generator": "scripts/run_analysis.py",
+  "generator_version": "0.5.0",
+  "prompt_version": "figure-alignment-v1",
+  "data_version": "seta-original-story-rebuild-20260717",
+  "version": "v2",
+  "date": "2026-07-17",
+  "author_or_agent": "Codex",
+  "seed": 20260717,
+  "canonical_output_dir": "/Users/takumi/Library/Mobile Documents/com~apple~CloudDocs/研究室関係/Journal_1/submission/20260707_ijlca_v2/github_release_package/wind-support-lca-rank-fragility/figures",
+  "evidence_tier_key": {
+    "A": "conditional reported-material comparison",
+    "B": "conditional_product_proxy",
+    "C": "sensitivity or evidence-limited proxy only"
+  },
+  "case_point_estimate_status": {
+    "monopile_15mw": "conditional_central",
+    "volturnus_15mw": "conditional_central",
+    "tlp_15mw": "conditional_product_proxy",
+    "windcrete_15mw": "sensitivity_only",
+    "activefloat_15mw": "audit_only_unit_endpoints"
+  },
+  "activefloat_depth_semantics": {
+    "material_proxy_depth_status": "not_specified",
+    "associated_engineering_model_depth_m": 200,
+    "interpretation": "the 200 m value belongs to an associated engineering model and is not assigned to the material proxy"
+  },
+  "execution_sha256": {
+    "src/analysis.py": "9fb79f2758fa17fb638825aea03ec71c32d3eeb7df75b41cab6bdefc4669e37b",
+    "src/__init__.py": "44da2c2364f6bf54f09780414f4ea025ce9a613a70b0fbb1f5e06d0f963efd15",
+    "scripts/run_analysis.py": "2be21250a884e3c0d6ffad6d7d0d2974d1ffe0e74ee6ab756a3d58432b6478d3"
+  },
+  "environment_sha256": {
+    "pyproject.toml": "cf28c22fc5354de77312beb8424acc92a33ab7aa1bf6dbb807a3191df97c9d4a",
+    "uv.lock": "9400dc588cf80bebfb7b4474820dd76c8cc760abb63a8d8a7b675e154d234f73"
+  },
+  "figures": {
+    "Figure_1_multisupport_baseline": {
+      "title": "Conditional four-case comparison with unranked ActiveFloat endpoints",
+      "caption_short": "Four conditional median bars retain 5--95% sampled ranges; ActiveFloat is shown only as two hollow unit endpoints and is unranked.",
+      "source_data": [
+        "conditional_sample_summary.csv",
+        "activefloat_rebar_unit_endpoints.csv",
+        "figure_1_plot_data.csv"
+      ],
+      "source_sha256": {
+        "conditional_sample_summary.csv": "21f8c691d354ca1e5dd5651cfb9bac8ac60abb76e592e7faeae27373f5c53881",
+        "activefloat_rebar_unit_endpoints.csv": "7efa6c33807357a70710b4f42a22b8ed80f1045ab89a5f92bcc3d31aa5215909",
+        "figure_1_plot_data.csv": "06bc3fd4e864150d2641073bb52dfd61f6179cc9947ddb956252d748cb8e7759"
+      },
+      "unit": "g CO2e per kWh at common 0.42 capacity factor",
+      "filters": "ranked bars: monopile, WindCrete sensitivity, TLP and VolturnUS-S; ActiveFloat exclusive 2.55 t and 2550 t rebar endpoints are unranked; turbine, tower, anchors and later stages excluded"
+    },
+    "Figure_2_rank_stability": {
+      "title": "Reported-material rank stability by included boundary layer",
+      "caption_short": "Matched four-case matrices use one common 0--1 scale and a one-percent tie band; ActiveFloat is excluded because its rebar unit is unresolved.",
+      "source_data": [
+        "pairwise_rank_fragility.csv",
+        "figure_2_heatmap_values.csv"
+      ],
+      "source_sha256": {
+        "pairwise_rank_fragility.csv": "997ec0afdecdff947e8a2924b73bab683b04d43a1ae7f751297cb0803b7591af",
+        "figure_2_heatmap_values.csv": "0d8d15697b18a868bad34b3e6a1ad61d84a52d371aec9bdf819a912a9693a0a5"
+      },
+      "unit": "reported-material conditional sample fraction (row lower + 0.5 times tie)",
+      "filters": "monopile, WindCrete sensitivity, TLP and VolturnUS-S only; ActiveFloat excluded; equal-yield material-production proxy; matched core and core-plus-station-keeping panels",
+      "color_scale": [
+        0.0,
+        1.0
+      ],
+      "tie_threshold": 0.01
+    },
+    "Figure_3_inventory_corrections": {
+      "title": "Material identity changes the inferred burden",
+      "caption_short": "Legacy and source-corrected material mappings for VolturnUS-S and WindCrete.",
+      "source_data": [
+        "inventory_correction_effects.csv"
+      ],
+      "source_sha256": {
+        "inventory_correction_effects.csv": "6c683891fe5972c4f36d17028396159323ccb8b08eee69f944c2e85b6f68d0ff"
+      },
+      "unit": "kt CO2e material-production proxy",
+      "filters": "core-substructure mapping audit only"
+    }
+  },
+  "figure_sha256": {
+    "Figure_1_multisupport_baseline.pdf": "e3cc108ff8f6a1621535422976b85277f8a270fc9378595813965461d8f3926e",
+    "Figure_1_multisupport_baseline.png": "4891de21aacc02ebf8c454c8f6f8c7a11e0ca52a4b223479542bcae05902faea",
+    "Figure_2_rank_stability.pdf": "4477b68f7f3050ee734d1941e93e6142ecb58acaa96dfbf00b1a511df1c8ef03",
+    "Figure_2_rank_stability.png": "81dc2b58e797d3dfd26d5ca3fd632b627bec319e0dc4585af9137265e07c1948",
+    "Figure_3_inventory_corrections.pdf": "71775cb6fb24b70cf5743a2d55d09adf1d36248b346886b3b22f7b0050162eb1",
+    "Figure_3_inventory_corrections.png": "dc9b1204170b7030ba52f803509f5a49f5084f432b052597f1ed9cbc1d382e6c"
+  }
+}

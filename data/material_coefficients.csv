@@ -1,7 +1,0 @@
-material,gwp_kgco2eq_per_kg,primary_basis,note
-Unidirectional GFRP,3.43,Gopalraj et al. (2021),Composite-level proxy for GFRP
-Virgin CFRP proxy,17.20,Gopalraj et al. (2021) + JCMA anchor,Composite-level proxy for virgin CFRP
-rCFRTP core proxy,5.38,Gopalraj et al. (2021) + JCMA anchor,Recycled CFRTP core proxy used in rCFRP and rrCFRP cases
-Structural steel,2.47,World Steel Association (2023),Global hot-rolled plate eco-profile A1-A3
-Copper,3.97,International Copper Association (2023),Global copper cathode environmental profile
-Structural concrete,0.107,Mineral Products Association/GCCA (2025),20 MPa concrete converted from 255 kg-CO2eq/m3 at 2380 kg/m3

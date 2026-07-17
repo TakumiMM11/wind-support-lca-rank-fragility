@@ -1,0 +1,70 @@
+{
+  "analysis_id": "seta-original-story-rebuild-20260717",
+  "seed": 20260717,
+  "n_samples": 100000,
+  "interpretation": "Source-audited conditional design-space screening; frequencies are not real-world probabilities",
+  "audit_interpretation": "Conditional design-space sample fractions; not frequencies of real projects and not central estimates",
+  "audit_outputs": {
+    "activefloat_rebar_unit_endpoints.csv": "two exclusive unit readings; neither is headline eligible",
+    "robustness_matrix_pairwise.csv": "conditional sample-fraction sensitivity matrix",
+    "robustness_ab_reported_material_ordering.csv": "A/B reported-material ordering across audit choices",
+    "missing_burden_parity_thresholds.csv": "steel- and concrete-equivalent thresholds only; no actual missing mass"
+  },
+  "primary_comparison_scope": "ActiveFloat excluded from primary samples, summaries, pairwise results, ranks and boundary shifts; baseline row retains mass provenance with no burden, intensity or rank",
+  "figure_source_tables": {
+    "figure_1_plot_data.csv": "four ranked conditional bars plus two unranked ActiveFloat unit endpoints",
+    "figure_2_heatmap_values.csv": "matched four-case heatmap cells with ActiveFloat excluded"
+  },
+  "input_sha256": {
+    "analysis_parameters.json": "079877d82fc911c15bfc2932034250edde294385d7231679979b6d865753deef",
+    "boundary_exclusions.csv": "522f9ab3855c8ebbfda8cd5974c653f48837101975a0d9ef4be335f24b8c9d6e",
+    "case_manifest.csv": "5fbb98b37744facb6137cc5ceb1c3e21a7d0b06ab9b283a60573a1037b56a305",
+    "evidence_profile.csv": "48c39533881bdbf79f27218979a7618331e4d10d5ba87f7fb34bd0a509037b61",
+    "legacy_mapping_audit.csv": "b7645abbb6320f147c3908788bb366145039352c674b1320299ce5244ba8c32b",
+    "missing_boundary_items.csv": "d7b9b2e1aa8ce8e97a4d419430b0c834832fe4f466132fab69a5d6ad7ddfc412",
+    "physical_mass_register.csv": "7454f01e07df47fc33e02b4dd97309252385866ee122088c1602a53bfc5581eb",
+    "robustness_scenarios.json": "2dc65f39d9a356e4b6e814636072ae54cdbb6d5318137fa8a764dcd741680866",
+    "source_register.csv": "aadf4a15ff8688cb4e32a74057f816ab8d4d619033085adbe505629c91bd0692",
+    "support_components.csv": "5032169f819a729da22716865b6748c87ed751586459e9b70b4353e5a864c74d"
+  },
+  "output_sha256": {
+    "activefloat_rebar_unit_endpoints.csv": "7efa6c33807357a70710b4f42a22b8ed80f1045ab89a5f92bcc3d31aa5215909",
+    "analytic_corner_bounds.csv": "d1eca72cab2e3e6f79c56517c4100f7199ff7220cb73f548f66b7cf7ef2da196",
+    "analytic_rating_transfer.csv": "3e9c335c1483a27aa8c5b223195a990c3f82d2795a9d19a4e40715c3d1b5663a",
+    "baseline_15mw_support_results.csv": "1586ab44acea9d141cfa2f3312bf28e55758d11073385a3b540b704677c248d1",
+    "boundary_layer_rank_shifts.csv": "55926909ddfdd5f13e0033b109c053c289ad407cda4e4e87e4970fc24c71ac24",
+    "component_contributions.csv": "f61c736981652e5c612180fa82147a5414c6d90ff5beacda13bded5217572837",
+    "conditional_sample_summary.csv": "21f8c691d354ca1e5dd5651cfb9bac8ac60abb76e592e7faeae27373f5c53881",
+    "conditional_samples.csv.gz": "a26b32194b95c4e30947e14308584ff72273cdb62e75f2cf516795b331a3454a",
+    "data_resolution_thresholds.csv": "fe822f48e68b627be5de726c5101bc4a98c158f20108544a05149066a907435e",
+    "figure_1_plot_data.csv": "06bc3fd4e864150d2641073bb52dfd61f6179cc9947ddb956252d748cb8e7759",
+    "figure_2_heatmap_values.csv": "0d8d15697b18a868bad34b3e6a1ad61d84a52d371aec9bdf819a912a9693a0a5",
+    "input_and_result_qa.csv": "d84573e95ff532fa20c194d777404539e813cffc3aad46b4f6e86a619bee5bb1",
+    "inventory_correction_effects.csv": "6c683891fe5972c4f36d17028396159323ccb8b08eee69f944c2e85b6f68d0ff",
+    "missing_burden_parity_thresholds.csv": "cb62f7c19035a98d335f13b7b480205686b65a78302f3a5b9b8166e1286ec7e1",
+    "pairwise_rank_fragility.csv": "997ec0afdecdff947e8a2924b73bab683b04d43a1ae7f751297cb0803b7591af",
+    "rank_distribution.csv": "945b64364662e3b2df196c5bd4bdc623c3b6d7779eaf2da53c2188f8501d37ee",
+    "robustness_ab_reported_material_ordering.csv": "ea78ad1efd723ee9fe1f7daaa77d766d8b3c40f42d79f169ced6ebca1f8f1e11",
+    "robustness_matrix_pairwise.csv": "0bfe18de3f64619a36f6c2119b1623f06a6ba06801175bb737853821cea736f4"
+  },
+  "figure_sha256": {
+    "Figure_1_multisupport_baseline.pdf": "e3cc108ff8f6a1621535422976b85277f8a270fc9378595813965461d8f3926e",
+    "Figure_1_multisupport_baseline.png": "4891de21aacc02ebf8c454c8f6f8c7a11e0ca52a4b223479542bcae05902faea",
+    "Figure_2_rank_stability.pdf": "4477b68f7f3050ee734d1941e93e6142ecb58acaa96dfbf00b1a511df1c8ef03",
+    "Figure_2_rank_stability.png": "81dc2b58e797d3dfd26d5ca3fd632b627bec319e0dc4585af9137265e07c1948",
+    "Figure_3_inventory_corrections.pdf": "71775cb6fb24b70cf5743a2d55d09adf1d36248b346886b3b22f7b0050162eb1",
+    "Figure_3_inventory_corrections.png": "dc9b1204170b7030ba52f803509f5a49f5084f432b052597f1ed9cbc1d382e6c"
+  },
+  "execution_sha256": {
+    "src/analysis.py": "9fb79f2758fa17fb638825aea03ec71c32d3eeb7df75b41cab6bdefc4669e37b",
+    "src/__init__.py": "44da2c2364f6bf54f09780414f4ea025ce9a613a70b0fbb1f5e06d0f963efd15",
+    "scripts/run_analysis.py": "2be21250a884e3c0d6ffad6d7d0d2974d1ffe0e74ee6ab756a3d58432b6478d3"
+  },
+  "environment_sha256": {
+    "pyproject.toml": "cf28c22fc5354de77312beb8424acc92a33ab7aa1bf6dbb807a3191df97c9d4a",
+    "uv.lock": "9400dc588cf80bebfb7b4474820dd76c8cc760abb63a8d8a7b675e154d234f73"
+  },
+  "test_sha256": {
+    "tests/test_analysis.py": "606bb17bc71c39ca16d80bca67400212a92842a3b9e0ac113d37d8baf6433aa6"
+  }
+}

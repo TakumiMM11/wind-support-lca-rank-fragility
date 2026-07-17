@@ -1,6 +1,0 @@
-case_id,structure,benchmark_mw,model_mw_used,mw_note,material_model,model_gwp_gpkwh,model_gwp_ci_low_gpkwh,model_gwp_ci_high_gpkwh,benchmark_low_gpkwh,benchmark_high_gpkwh,in_range,in_range_with_ci,deviation_from_midpoint_pct,reason_code
-BC1,onshore,3.0,2.0,nearest=2.0MW,gfrp,19.84,16.315,23.267,7.0,14.0,False,False,89.0,OVER
-BC2,bottom_fixed,5.0,5.0,,gfrp,14.135,12.474,16.109,9.0,20.0,True,True,-2.5,
-BC3,spar,10.0,10.0,,gfrp,19.018,15.953,21.778,10.0,20.0,True,True,26.8,
-BC4,semisubmersible,10.0,10.0,,gfrp,18.264,14.805,20.152,11.0,22.0,True,True,10.7,
-BC5,onshore,15.0,15.0,,gfrp,11.771,9.553,14.13,8.0,14.0,True,True,7.0,

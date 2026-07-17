@@ -1,0 +1,25 @@
+{
+  "analysis_id": "conditional-robustness-audit-20260717",
+  "interpretation": "Conditional design-space sample fractions; not frequencies of real projects and not central estimates",
+  "n_samples_per_replicate": 20000,
+  "replicate_seeds": [202607171, 202607172, 202607173],
+  "distribution_shapes": {
+    "triangular": "Package modes with the stated lower and upper bounds",
+    "uniform": "Equal density over the same stated lower and upper bounds",
+    "discrete_endpoints": "Equal-weight draws at the stated lower and upper endpoints"
+  },
+  "windcrete_reinforcement_upper_fractions": {
+    "0.05": "Lower stress cap equal to the pre-existing package mode; it is an audit alternative, not an observed reinforcement rate",
+    "0.125": "Pre-existing upper stress cap derived from the ActiveFloat assumed-tonne rebar-to-concrete ratio; the underlying ActiveFloat unit remains unresolved"
+  },
+  "capacity_factor_gaussian_copula_rhos": [0.0, 0.6, 0.9],
+  "tie_thresholds": [0.005, 0.01, 0.02],
+  "target_pairs": [
+    ["windcrete_15mw", "tlp_15mw", "targeted_windcrete_tlp"],
+    ["monopile_15mw", "windcrete_15mw", "targeted_monopile_windcrete"],
+    ["monopile_15mw", "tlp_15mw", "ab_reported_material_pair"],
+    ["monopile_15mw", "volturnus_15mw", "ab_reported_material_pair"],
+    ["tlp_15mw", "volturnus_15mw", "ab_reported_material_pair"]
+  ],
+  "ab_reported_order": ["monopile_15mw", "tlp_15mw", "volturnus_15mw"]
+}

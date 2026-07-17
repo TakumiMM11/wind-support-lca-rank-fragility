@@ -1,0 +1,6 @@
+case_id,design_version,analysis_tier,headline_eligible,point_estimate_status,material_proxy_depth_status,associated_engineering_model_depth_m,principal_limitation
+monopile_15mw,IEA-15-240-RWT report design,A_core,yes,conditional_central,source_specified,,Published mass contains transition-piece and outfitting allowances without a separate material split; whole mass is a steel proxy
+volturnus_15mw,VolturnUS-S NREL reference design,A_core,yes,conditional_central,source_specified,,Tower-interface point mass and seabed anchors are outside the burdened central register
+tlp_15mw,Frontiers 2026 novel TLP,B_conditional,yes,conditional_product_proxy,source_specified,,Carbon-fibre rope is a product mass rather than pure CFRP and seabed anchors are unreported
+windcrete_15mw,COREWIND D1.3 preliminary WindCrete,C_sensitivity,no,sensitivity_only,source_specified,,Reinforcement and post-tensioning steel are unreported and later COREWIND versions change the ballast concept
+activefloat_15mw,ORE-Catapult material proxy based on ActiveFloat,C_proxy,no,audit_only_unit_endpoints,not_specified,200,The material-proxy table does not specify a design depth; 200 m belongs to an associated engineering model; the rebar unit is unresolved and no primary point estimate or rank is asserted

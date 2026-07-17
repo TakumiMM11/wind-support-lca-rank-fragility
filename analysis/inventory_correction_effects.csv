@@ -1,0 +1,5 @@
+design_id,mapping_case,burdened_mass_kg,physical_only_mass_kg,proxy_gwp_kgco2,correction_delta_gwp_kgco2,correction_fraction
+volturnus_15mw,rejected_manuscript,17839000,11300000,6020330.0,3919392.8571428563,0.6510262489170622
+volturnus_15mw,source_corrected,6454000,11300000,9939722.857142856,3919392.8571428563,0.6510262489170622
+windcrete_15mw,rejected_manuscript,36550000,0,3916071.428571428,-2555707.428571428,-0.652620227998176
+windcrete_15mw,source_corrected,36550000,0,1360364.0,-2555707.428571428,-0.652620227998176

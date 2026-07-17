@@ -1,0 +1,17 @@
+check,passed
+windcrete substructure mass closes,True
+VolturnUS published component sum closes,True
+VolturnUS total closes after unresolved interface is restored physically,True
+TLP tendon derivation closes,True
+all primary conditional burdens are positive,True
+pairwise sample fractions sum to one,True
+physical register has no material coefficient column,True
+ActiveFloat residual register is a mass-free audit placeholder,True
+ActiveFloat physical residual endpoints close from source total,True
+TLP source design depth is 103 m,True
+ActiveFloat unresolved unit is non-headline,True
+ActiveFloat baseline burden intensity and rank are not asserted,True
+ActiveFloat associated engineering model is separated at 200 m,True
+TLP status is conditional product proxy,True
+ActiveFloat is absent from primary pairwise results,True
+missing boundary register asserts no mass,True

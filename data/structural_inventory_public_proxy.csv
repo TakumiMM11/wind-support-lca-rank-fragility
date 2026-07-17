@@ -1,6 +1,0 @@
-structure,inventory_basis,disclosure_category,absolute_mass_inputs_disclosed,note
-onshore,Retained 3 MW component inventory scaled to larger ratings,proxy,yes,15 MW case is a scaled analytical case
-bottom_fixed,IEA 15 MW offshore reference turbine and bottom-fixed support basis,public/proxy,yes,Used for public/proxy comparison
-semisubmersible,UMaine VolturnUS-S 15 MW reference platform basis,public,yes,Used for public/proxy comparison
-spar,WindCrete-class 15 MW floating concept basis,public/proxy,yes,Concrete coefficient sensitivity is important
-fawt,Partner-provided category-level concept information,scenario,no,Absolute structural mass inputs are not disclosed; derived outputs are included
